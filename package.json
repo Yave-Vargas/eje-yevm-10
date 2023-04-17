@@ -1,0 +1,14 @@
+{
+  "name": "eje-yevm-10",
+  "version": "1.0.0",
+  "description": "tec web eje 10",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Yave-Vargas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
