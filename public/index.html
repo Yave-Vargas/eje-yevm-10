@@ -25,17 +25,17 @@
                 <form name="calculator">
                     <h2>Calculadora Básica</h2>
                     <div id="entradas">
-                        <input type="text" name="ent1" value="0" class="entrada">
-                        <input type="text" name="ent2" value="0" class="entrada">
+                        <input type="text" id="ent1" value="0" class="entrada">
+                        <input type="text" id="ent2" value="0" class="entrada">
                     </div>
                     <div>
-                        <label for="resultado">Resultado: 0.0</label>
+                        <label id="resultado" for="resultado">Resultado: 0.0</label>
                     </div>
                     <div id="botones">
-                        <input type="button" value="+" class="boton" onclick="sumaNumeros();">
-                        <input type="button" value="-" class="boton" onclick="restaNumeros();">
-                        <input type="button" value="*" class="boton" onclick="multiNumeros();">
-                        <input type="button" value="/" class="boton" onclick="divNumeros();">
+                        <input type="button" id="suma" value="+" class="boton" onclick="sumaNumeros();">
+                        <input type="button" id="resta" value="-" class="boton" onclick="restaNumeros()">
+                        <input type="button" id="multi" value="*" class="boton" onclick="multiNumeros()">
+                        <input type="button" id="div" value="/" class="boton" onclick='divNumeros()'>
                     </div>
                 </form>
             </div>
@@ -43,6 +43,6 @@
         <footer>
             <p>Copyright &copy; 2023 Yave Vargas</p>
         </footer>
-        <script src="js/eje-yevm.js"></script>
+        <script src="js/eje-yevm.js" defer></script>
     </body>
 </html>
